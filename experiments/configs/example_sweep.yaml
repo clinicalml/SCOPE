@@ -1,0 +1,43 @@
+data_type:
+- Custom
+hidden_dim:
+- 16
+max_epochs:
+- 1
+t_cond:
+- -1
+planned_treatments:
+- true
+nhead_treat:
+- 0
+dropout_p:
+- 0.1
+fold:
+- 0
+- 1
+- 2
+bootstrap_seed:
+- -1
+- 0
+- 1
+- 2
+- 3
+- 4
+nheads:
+- 2
+lambda_reg:
+- 0.
+num_layers:
+- 2
+restricted_pred_features_set:
+- False
+restricted_input_features_set:
+- False
+emission_proba:
+- False
+use_rna:
+- False
+gpus:
+- 0
+program:
+- run_seq2seq.py

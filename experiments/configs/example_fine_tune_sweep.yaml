@@ -1,0 +1,37 @@
+pretrained_sweep_name:
+- un80dv5dgm
+emission_window:
+- 1
+outcome:
+- pfs
+pretrained_version_name:
+- version_1
+- version_0
+- version_2
+- version_4
+- version_3
+- version_18
+- version_8
+- version_6
+- version_7
+- version_9
+- version_5
+- version_10
+- version_15
+- version_12
+- version_13
+- version_14
+- version_11
+- version_16
+n_bootstraps:
+- 5
+early_stopping:
+- 20
+emission_type: 
+- non_linear
+include_baseline: 
+- True
+include_last:
+- True
+program:
+- fine_tune.py
