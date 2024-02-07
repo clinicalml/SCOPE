@@ -63,5 +63,5 @@ For the final evaluation of the model, you can run
 
 While making sure you set the name of the fine-tuning sweep now.
 
-Then run the cells in the `example.ipynb` notebook to collect the final results !
+Then run the cells in the `example.ipynb` notebook to collect the final results!
 
