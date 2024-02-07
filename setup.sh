@@ -1,6 +1,4 @@
 #!/bin/bash
-#git clone https://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@github.com/oneTakeda/MIT-D79-Repo
-#cd MIT-D79-Repo
 pip install pytorch_lightning==1.7.7
 pip install -e .
 pip install scikit-survival==0.19.0
