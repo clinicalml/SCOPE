@@ -3,7 +3,7 @@
 This repository contains the code of the SCOPE model and instructions for how to use the model on your own dataset. Below, we provide an example with a synthetic dataset.
 
 ### Installing packages 
-Before you begin, install all the required passages by running `sh setup.sh`.
+Before you begin, install all the required packages by running `sh install_packages.sh`. To bundle the code into an environment (to facilitate cleaner import statements), run `python setup.py`. When importing models from different parts of the codebase, you can simply write e.g. from mm79.models.transformer import Treatformer. 
 
 ### Importing your dataset
 
