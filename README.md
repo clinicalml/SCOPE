@@ -2,6 +2,9 @@
 
 This repository contains the code of the SCOPE model and instructions for how to use the model on your own dataset. Below, we provide an example with a synthetic dataset.
 
+### Installing packages 
+Before you begin, install all the required passages by running `sh setup.sh`.
+
 ### Importing your dataset
 
 You should adapt the function `load_data()` in `mm79/data/CustomDataModule.py` so that it loads your data.
